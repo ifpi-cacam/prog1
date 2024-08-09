@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Página do WebSite - IFPI &mdash; Website by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #51be78;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 50%;
+    }
+    
+    #myBtn:hover {
+      background-color: #51be78;
+    }
+    </style> 
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <span class="icon-arrow-up scroll-top d-flex align-items-center justify-content-center"></span>
+  </button>
+
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      //document.body.scrollTop = 0;
+      //document.documentElement.scrollTop = 0;
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+    function closeSideBar() {
+      //document.body.scrollTop = 0;
+      //document.documentElement.scrollTop = 0;
+      document.getElementById("iconclose").style.width = "0%";
+      document.getElementById("sidebar").style.width = "0%";
+    }
+    function openSideBar() {
+      //document.body.scrollTop = 0;
+      //document.documentElement.scrollTop = 0;
+      document.getElementById("sidebar").style.width = "65%";
+      document.getElementById("iconclose").style.width = "20%";
+    }
+
+    </script>
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target" id="sidebar">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3" id="iconclose">
+          <span class="icon-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <div class="py-2 bg-light">
+      <div class="container">
+
+      </div>
+    </div>
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="site-logo">
+            <a href="index.html" class="d-block">
+              <img src="images/logo-ifpi.jpg" alt="Image" class="img-fluid">
+            </a>
+          </div>
+          <div class="mr-auto">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active" onclick="closeSideBar()">
+                  <a href="index.html" class="nav-link text-left">Home</a>
+                </li>
+                <li onclick="closeSideBar()">
+                  <a href="#today" class="nav-link text-left">Aula de Hoje</a>
+                </li>
+                <li onclick="closeSideBar()">
+                  <a href="#previous" class="nav-link text-left">Aulas Anteriores</a>
+                </li>
+                <li onclick="closeSideBar()">
+                  <a class="active" href="#about_site" class="nav-link text-left">Sobre o Site</a>
+                </li>
+                <li onclick="closeSideBar()">
+                    <a href="index.html#contact_instructor" class="nav-link text-left">Contato</a>
+                  </li>
+              </ul>                                                                                                                                                                                                                                                                                          </ul>
+            </nav>
+
+          </div>
+          <div class="ml-auto">
+            <div class="social-wrap">
+              <a href="#"><span class="icon-facebook"></span></a>
+              <a href="#"><span class="icon-twitter"></span></a>
+              <a href="#"><span class="icon-linkedin"></span></a>
+
+              <a onclick="openSideBar()" href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                class="icon-menu h3"></span></a>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+    </header>
+
+    
+    <div class="hero-slide owl-carousel site-blocks-cover">
+      <div class="site-section ftco-subscribe-1 site-blocks-cover pb-5" style="background-image: url('images/bg_1.jpg')">
+        <div class="container">
+          <div class="row align-items-end">
+            <div class="col-lg-12">
+              <h2 class="mb-0">Programação Estruturada de Computadores</h2>
+              <p>Aula em Laboratório - dia 05/08/2024</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+    </div>
+    
+
+    <div></div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center">
+          <div class="col-lg-6 mb-5">
+            <h2 class="section-title-underline mb-5">
+              <span id="today">Conteúdo da aula de hoje</span>
+            </h2>
+            <p>Introdução aos Tipos de Dados Listas e Conjuntos em Python: Mutáveis e Imutáveis - Tuplas, Listas e Dicionários.</p>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-6 mb-4 mb-lg-0">
+
+            <div class="feature-1 border">
+              <div class="icon-wrapper bg-primary">
+                <span class="flaticon-school-material text-white"></span>
+              </div>
+              <div class="feature-1-content text-center">
+                <h2>Materiais da aula de hoje</h2>
+                <p>Verifique na tabela abaixo os materiais de aula disponíveis para download.</p>
+                <!--<p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>-->
+              </div>
+              <!-- Table 1 - Bootstrap Brain Component -->
+              <div class="py-md-5">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-12 col-xl-8">
+                    <div class="card widget-card border-light shadow-sm">
+                      <div class="card-body p-2">
+                        <h5 class="card-title widget-card-title mb-4">Item da Lista</h5>
+                        <div class="table-responsive col-lg-12">
+                          <table class="table table-borderless bsb-table-xl align-middle m-0">
+                            <thead>
+                              <tr>                              
+                                <th>Descrição</th>
+                                <th>Download</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">PDF Slides - Introdução aos Tipos Compostos em Python (Mutáveis e Imutáveis)</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="http://www.ifpi.edu.br" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                              <tr>
+                                
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Link para o Site da documentação Python (Tipos Mutáveis e Imutáveis)</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                              <tr>
+                               
+                                <td>
+                                  <span class="text-secondary fs-7">exemplo1.py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                              <tr>
+                                
+                                <td>
+                                  <span class="text-secondary fs-7">exemplo2.py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                              <tr>
+                                
+                                <td>
+                                  <span class="text-secondary fs-7">exemplo3.py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+    
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center">
+          <div class="col-lg-6 mb-5">
+            <h2 class="section-title-underline mb-5">
+              <span id="previous">Aulas Anteriores</span>
+            </h2>
+           
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-6 mb-4 mb-lg-0">
+
+            <div class="feature-1 border">
+              <div class="icon-wrapper bg-primary">
+                <span class="icon-plus text-white"></span>
+              </div>
+              <div class="feature-1-content text-center">
+                <h2>Listagem de todas as Aulas do curso</h2>
+
+                <!--<p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>-->
+              </div>
+              <!-- Table 1 - Bootstrap Brain Component -->
+              <div class="py-md-5">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-12 col-xl-8">
+                    <div class="card widget-card border-light shadow-sm">
+                      <div class="card-body p-2">
+                        <h5 class="card-title widget-card-title mb-4">Item da Lista</h5>
+                        <div class="table-responsive col-lg-12">
+                          <table class="table table-borderless bsb-table-xl align-middle m-0">
+                            <thead>
+                              <tr>                              
+                                <th>Data/Hora</th>
+                                <th>Acesse</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">25/02/2024, 13:00-15:00</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                              <tr>
+                                
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">26/02/2024, 13:00-15:00</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                              <tr>
+                               
+                                <td>
+                                  <span class="text-secondary fs-7">27/02/2024, 15:00-17:00</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                              <tr>
+                                
+                                <td>
+                                  <span class="text-secondary fs-7">13/03/2024, 13:00-15:00</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                              <tr>
+                                
+                                <td>
+                                  <span class="text-secondary fs-7">14/03/2024, 15:00-17:00</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="#"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+
+    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-justify">
+            <h2 class="section-title-underline style-2">
+              <span id="about_site">Sobre o Site</span>
+            </h2>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0 text-justify">
+            <span class="icon flaticon-book"></span>
+            <h3>Conteúdo</h3>
+            <p class="text-white">Contém material complementar e de aulas (teóricas e práticas em laboratório) disponibilizados ao longo do curso da disciplina Programação Estruturada de Computadores.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0 text-justify">
+            <span class="icon flaticon-school-material"></span>
+            <h3>O Curso</h3>
+            <p class="text-white">Curso Técnico em Desenvolvimento de Sistemas (3 módulos).</p>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0 text-justify">
+            <span class="icon flaticon-library"></span>
+            <h3>Local/Horário das Aulas</h3>
+            <p class="text-white">Instituto Federal de Educação, Ciência e Tecnologia do Piauí, Campo Campo Maior, Seg-Sex, turno tarde, ver calendário acadêmico.</p>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0 text-justify">
+            <span class="icon flaticon-mortarboard"></span>
+            <h3 id="contact_instructor">Instrutor</h3>
+            <p class="text-white">Prof. M.Sc. Nairon S. Viana <a href="mailto:nairon.viana@ifpi.edu.br"><span class="text-success social-wrap icon-mail_outline text-secondary md-7"></span></a></p>
+            <p class="text-white"><ins>nairon.viana@ifpi.edu.br</ins></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer bg-white">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright text-black">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+  <!-- .site-wrap -->
+
+
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#51be78"/></svg></div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+
+
+
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
