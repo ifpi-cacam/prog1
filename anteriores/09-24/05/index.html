@@ -2,30 +2,30 @@
 <html lang="en">
 
 <head>
-  <title>Template de Aulas - Nairon Saraiva Viana</title>
+  <title>Página do WebSite - IFPI</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="../../../fonts/icomoon/style.css">
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../css/jquery-ui.css">
+  <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
 
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../../../css/jquery.fancybox.min.css">
 
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
 
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="../../../fonts/flaticon/font/flaticon.css">
 
-  <link rel="stylesheet" href="css/aos.css">
-  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../../../css/aos.css">
+  <link href="../../../css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../../../css/style.css">
   
   <style>
     body {
@@ -96,6 +96,11 @@
       document.getElementById("iconclose").style.width = "20%";
     }
 
+    function closeSideBarAndGoHome() {
+      closeSideBar();
+      window.location = '../../../index.html';
+    }
+
     </script>
 
   <div class="site-wrap">
@@ -120,18 +125,18 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.html" class="d-block">
-              <img src="images/logo-ifpi.jpg" alt="Image" class="img-fluid">
+            <a href="../../../index.html" class="d-block">
+              <img src="../../../images/logo-ifpi.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
           <div class="mr-auto">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active" onclick="closeSideBar()">
-                  <a href="index.html" class="nav-link text-left">Home</a>
+                <li class="active" onclick="closeSideBarAndGoHome()">
+                  <a href="../../../index.html" class="nav-link text-left">Home</a>
                 </li>
                 <li onclick="closeSideBar()">
-                  <a href="#today" class="nav-link text-left">Aula de Hoje</a>
+                  <a href="#today" class="nav-link text-left">Aula 05-09-24</a>
                 </li>
                 <li onclick="closeSideBar()">
                   <a href="#previous" class="nav-link text-left">Aulas Anteriores</a>
@@ -164,12 +169,12 @@
 
     
     <div class="hero-slide owl-carousel site-blocks-cover">
-      <div class="site-section ftco-subscribe-1 site-blocks-cover pb-5" style="background-image: url('images/bg_1.jpg')">
+      <div class="site-section ftco-subscribe-1 site-blocks-cover pb-5" style="background-image: url('../../../images/bg_1.jpg')">
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-12">
               <h2 class="mb-0">Programação Estruturada de Computadores</h2>
-              <p>Aula em Laboratório - dia 06/09/2024</p>
+              <p>Aula em Laboratório - dia 05/09/2024</p>
             </div>
           </div>
         </div>
@@ -218,72 +223,141 @@
                                 <th>Download</th>
                               </tr>
                             </thead>
-                            <tbody>                                
+                            <tbody>                              
+                              
                               <tr>
 
                                 <td class="text-justify">
-                                  <span class="text-secondary fs-7">Questao Resolvida - q1.py</span>
+                                  <span class="text-secondary fs-7">Estudo de Caso Python - pdf</span>
                                 </td>
 
                                 <td class="text-center">
                                   <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./materiais/questao1.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
-                                </td>
-                              </tr>  
-
-
-
-                              <tr>
-
-                                <td class="text-justify">
-                                  <span class="text-secondary fs-7">Questao Resolvida - q2.py</span>
-                                </td>
-
-                                <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./materiais/questao2.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
-                                </td>
-                              </tr>  
-
-
-                              <tr>
-
-                                <td class="text-justify">
-                                  <span class="text-secondary fs-7">Questao Resolvida - q3.py</span>
-                                </td>
-
-                                <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./materiais/questao3.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
-                                </td>
-                              </tr>  
-
-
-                              <tr>
-
-                                <td class="text-justify">
-                                  <span class="text-secondary fs-7">Questao Resolvida - q4.py</span>
-                                </td>
-
-                                <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./materiais/questao4.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                    <a href="materiais/ATIVIDADE_PRATICA_RESOLVIDO_04-09-24.pdf" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>  
 
                               <tr>
 
                                 <td class="text-justify">
-                                  <span class="text-secondary fs-7">ESTUDO DE CASO .Py</span>
+                                  <span class="text-secondary fs-7">Lista da Aula passada (9 questoes)</span>
                                 </td>
 
                                 <td class="text-center">
                                   <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./materiais/estudodecaso.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                    <a href="materiais/Atividade_Pratica_Aula_29_08_2024.pdf" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>  
 
+                              <tr>
 
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Questao 1 - Resolvida - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/questao1.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Questao 2 - Resolvida - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/questao2.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Questao 3 - Resolvida - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/questao3.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Questao 4 - Resolvida - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/questao4.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Questao 5 - Resolvida - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/questao5.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Exercícios - questao 1 - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/exercicio1.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Exercícios - questao 2 - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/exercicio2.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Exercícios - questao 3 - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/exercicio3.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                              <tr>
+
+                                <td class="text-justify">
+                                  <span class="text-secondary fs-7">Exercícios - questao 4 - py</span>
+                                </td>
+
+                                <td class="text-center">
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
+                                    <a href="materiais/exercicio4.py" target="_blank"><span class="text-success social-wrap icon-download text-secondary md-7"></span></a>                                                                    
+                                </td>
+                              </tr> 
+
+                                
                             </tbody>
                           </table>
                         </div>
@@ -336,18 +410,7 @@
                               </tr>
                             </thead>
                             <tbody>
-
-                              <tr>
-                                
-                                <td>
-                                  <span class="text-secondary fs-7">05/09/2024</span>
-                                </td>
-
-                                <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                
-                                    <a href="../../../anteriores/09-24/05/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
-                                </td>
-                              </tr>
+                              
 
                               <tr>
                                 
@@ -357,19 +420,7 @@
 
                                 <td class="text-center">
                                   <!--<h6 class="mb-1">Bootstrap</h6>-->                                
-                                    <a href="./anteriores/09-24/04/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
-                                </td>
-                              </tr>
-
-                              <tr>
-                                
-                                <td>
-                                  <span class="text-secondary fs-7">29/08/2024</span>
-                                </td>
-
-                                <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                
-                                    <a href="./anteriores/08-24/29/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                    <a href="../../../anteriores/09-24/04/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>
 
@@ -381,7 +432,7 @@
 
                                 <td class="text-center">
                                   <!--<h6 class="mb-1">Bootstrap</h6>-->                                
-                                    <a href="./anteriores/08-24/28/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                    <a href="../../../anteriores/08-24/28/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>
 
@@ -393,7 +444,7 @@
 
                                 <td class="text-center">
                                   <!--<h6 class="mb-1">Bootstrap</h6>-->                                
-                                    <a href="./anteriores/08-24/23/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                    <a href="../../../anteriores/08-24/23/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>
 
@@ -405,7 +456,7 @@
 
                                 <td class="text-center">
                                   <!--<h6 class="mb-1">Bootstrap</h6>-->                                
-                                    <a href="./anteriores/08-24/22/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                    <a href="../../../anteriores/08-24/22/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>
 
@@ -416,8 +467,8 @@
                                 </td>
 
                                 <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./anteriores/08-24/16/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                
+                                    <a href="../../../anteriores/08-24/16/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>
 
@@ -428,8 +479,8 @@
                                 </td>
 
                                 <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./anteriores/08-24/15/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                
+                                    <a href="../../../anteriores/08-24/15/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>
 
@@ -440,8 +491,8 @@
                                 </td>
 
                                 <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./anteriores/08-24/14/index.html" ><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                
+                                    <a href="../../../anteriores/08-24/14/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>
 
@@ -452,8 +503,8 @@
                                 </td>
 
                                 <td class="text-center">
-                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                  
-                                    <a href="./anteriores/08-24/09/index.html" ><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
+                                  <!--<h6 class="mb-1">Bootstrap</h6>-->                                
+                                    <a href="../../../anteriores/08-24/09/index.html"><span class="text-success social-wrap icon-globe text-secondary md-7"></span></a>                                                                    
                                 </td>
                               </tr>
 
@@ -712,7 +763,7 @@
       </div>
     </div>
 
-    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
+    <div class="section-bg style-1" style="background-image: url('../../../images/hero_1.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-justify">
@@ -771,25 +822,25 @@
   <!-- loader -->
   <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#51be78"/></svg></div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="../../../js/jquery-3.3.1.min.js"></script>
+  <script src="../../../js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../../../js/jquery-ui.js"></script>
+  <script src="../../../js/popper.min.js"></script>
+  <script src="../../../js/bootstrap.min.js"></script>
+  <script src="../../../js/owl.carousel.min.js"></script>
+  <script src="../../../js/jquery.stellar.min.js"></script>
+  <script src="../../../js/jquery.countdown.min.js"></script>
+  <script src="../../../js/bootstrap-datepicker.min.js"></script>
+  <script src="../../../js/jquery.easing.1.3.js"></script>
+  <script src="../../../js/aos.js"></script>
+  <script src="../../../js/jquery.fancybox.min.js"></script>
+  <script src="../../../js/jquery.sticky.js"></script>
+  <script src="../../../js/jquery.mb.YTPlayer.min.js"></script>
 
 
 
 
-  <script src="js/main.js"></script>
+  <script src="../../../js/main.js"></script>
 
 </body>
 
