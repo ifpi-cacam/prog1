@@ -1,0 +1,18 @@
+
+
+	- Trabalho Final - Em grupo - 4 alunos
+	- Temas:
+		Tema 2 - Cadastro de Estudantes
+		Tema 4 - Cadastro de Veiculos
+		Tema 5 - Cadastro de Imoveis
+		Tema 6 - Cadastro de Funcionarios
+
+	  Faltam:
+	  	Tema 3 - Cadastro de Medicos
+		Tema 1 - Cadastro de Produtos
+	
+	- Grupos
+		Grupo 1 - Romario, Carolina, Carlos Daniel e Gabriela (Tema 6)
+		Grupo 2 - Rian, Geisilane, Pamela e Alex (Tema 2)
+		Grupo 3 - Eliel, Daniel e Roberval (Tema 4)
+		Grupo 4 - Jose, Alan (Tema 5)
