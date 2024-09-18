@@ -13,7 +13,14 @@
 	
 	- Grupos
 		Grupo 1 - Romario, Carolina, Carlos Daniel e Gabriela (Tema 6)
+		-- Nota: 100%
 		Grupo 2 - Rian, Geisilane, Pamela e Alex (Tema 2)
+		-- Nota: 90%
 		Grupo 3 - Eliel, Daniel e Roberval (Tema 4)
+		-- Nota: 
 		Grupo 4 - Jose, Alan (Tema 5)
+		-- Nota: 100%
 		Grupo 5 - Expedito, Agostinho, Samara e Joao Victor (Tema 3)
+		-- Nota: 90%
+		Grupo 6 - Pedro Alves (Tema 1)
+		-- Nota: 		
